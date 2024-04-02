@@ -1,5 +1,8 @@
 # Build a Static Web Server Using Express!
 
+### Deployed Link
+https://eight-0-1-assignment-twincasper.onrender.com
+
 In this assignment, you will be tasked with creating and deploying a simple Express server. The server will have four GET endpoints, two that serve HTML and two that serve raw data. One of those data endpoints will use query parameters.
 
 **Table of Contents**
@@ -101,7 +104,7 @@ When you're done, push your code to github and [follow these steps to deploy usi
 
 **Deployment Technical Requirements**
 
-- [ ] Your GitHub page has a link to the deployed server in the About section. 
+- [X] Your GitHub page has a link to the deployed server in the About section. 
 
 ## Bonus Challenge: 
 

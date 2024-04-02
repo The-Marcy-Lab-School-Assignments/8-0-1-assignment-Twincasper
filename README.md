@@ -1,5 +1,8 @@
 # Build a Static Web Server Using Express!
 
+### Deployed Link
+https://eight-0-1-assignment-twincasper.onrender.com
+
 In this assignment, you will be tasked with creating and deploying a simple Express server. The server will have four GET endpoints, two that serve HTML and two that serve raw data. One of those data endpoints will use query parameters.
 
 **Table of Contents**
@@ -68,11 +71,11 @@ When deploying, you will use the `npm start` command to start the server using t
 
 Before continuing, make sure that these tasks are completed!
 
-- [ ] Has a Vite+React project folder with a built `dist/` folder
-- [ ] The `.gitignore` does NOT include `dist`
-- [ ] Has a `server` folder with an `index.js` file and a `package.json` file inside
-- [ ] `package.json` has `express` installed as a dependency and `nodemon` as a dev dependency
-- [ ] `package.json` has a `"dev"` script that uses `nodemon` and a `"start"` script that uses `node`
+- [X] Has a Vite+React project folder with a built `dist/` folder
+- [X] The `.gitignore` does NOT include `dist`
+- [X] Has a `server` folder with an `index.js` file and a `package.json` file inside
+- [X] `package.json` has `express` installed as a dependency and `nodemon` as a dev dependency
+- [X] `package.json` has a `"dev"` script that uses `nodemon` and a `"start"` script that uses `node`
 
 ## Part 2 — Write the Middleware
 
@@ -86,12 +89,12 @@ Any time that you send a request to the server, the request method, url, and tim
 
 **Server Application Technical Requirements**
 
-- [ ] In `index.js`, the `express()` function is used to create an `app`
-- [ ] The `path` module is imported
-- [ ] The `__dirname` variable is used to generate an absolute path to the `dist/` folder of your React application
-- [ ] The `express.static()` middleware is used to server the static assets in the React application's `dist/` folder.
-- [ ] A middleware controller exists that prints the request method, url, and time of request for every request sent to the server, and then invokes the `next()` middleware in the chain.
-- [ ] The `app` listens on an available port (I recommend `8080`)
+- [X] In `index.js`, the `express()` function is used to create an `app`
+- [X] The `path` module is imported
+- [X] The `__dirname` variable is used to generate an absolute path to the `dist/` folder of your React application
+- [X] The `express.static()` middleware is used to server the static assets in the React application's `dist/` folder.
+- [X] A middleware controller exists that prints the request method, url, and time of request for every request sent to the server, and then invokes the `next()` middleware in the chain.
+- [X] The `app` listens on an available port (I recommend `8080`)
 
 ## Part 3 — Deploy
 
@@ -101,7 +104,7 @@ When you're done, push your code to github and [follow these steps to deploy usi
 
 **Deployment Technical Requirements**
 
-- [ ] Your GitHub page has a link to the deployed server in the About section. 
+- [X] Your GitHub page has a link to the deployed server in the About section. 
 
 ## Bonus Challenge: 
 
